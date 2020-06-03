@@ -1,0 +1,6 @@
+framework module Pods_audioUIAPI {
+  umbrella header "Pods-audioUIAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}

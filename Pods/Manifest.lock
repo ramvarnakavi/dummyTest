@@ -1,0 +1,166 @@
+PODS:
+  - AWSAPIGateway (2.13.4):
+    - AWSCore (= 2.13.4)
+  - AWSAutoScaling (2.13.4):
+    - AWSCore (= 2.13.4)
+  - AWSCloudWatch (2.13.4):
+    - AWSCore (= 2.13.4)
+  - AWSComprehend (2.13.4):
+    - AWSCore (= 2.13.4)
+  - AWSConnect (2.13.4):
+    - AWSCore (= 2.13.4)
+  - AWSCore (2.13.4)
+  - AWSDynamoDB (2.13.4):
+    - AWSCore (= 2.13.4)
+  - AWSEC2 (2.13.4):
+    - AWSCore (= 2.13.4)
+  - AWSElasticLoadBalancing (2.13.4):
+    - AWSCore (= 2.13.4)
+  - AWSIoT (2.13.4):
+    - AWSCore (= 2.13.4)
+  - AWSKinesis (2.13.4):
+    - AWSCore (= 2.13.4)
+  - AWSKinesisVideo (2.13.4):
+    - AWSCore (= 2.13.4)
+  - AWSKinesisVideoArchivedMedia (2.13.4):
+    - AWSCore (= 2.13.4)
+  - AWSKMS (2.13.4):
+    - AWSCore (= 2.13.4)
+  - AWSLambda (2.13.4):
+    - AWSCore (= 2.13.4)
+  - AWSLex (2.13.4):
+    - AWSCore (= 2.13.4)
+  - AWSLogs (2.13.4):
+    - AWSCore (= 2.13.4)
+  - AWSMachineLearning (2.13.4):
+    - AWSCore (= 2.13.4)
+  - AWSPinpoint (2.13.4):
+    - AWSCore (= 2.13.4)
+  - AWSPolly (2.13.4):
+    - AWSCore (= 2.13.4)
+  - AWSRekognition (2.13.4):
+    - AWSCore (= 2.13.4)
+  - AWSS3 (2.13.4):
+    - AWSCore (= 2.13.4)
+  - AWSSageMakerRuntime (2.13.4):
+    - AWSCore (= 2.13.4)
+  - AWSSES (2.13.4):
+    - AWSCore (= 2.13.4)
+  - AWSSimpleDB (2.13.4):
+    - AWSCore (= 2.13.4)
+  - AWSSNS (2.13.4):
+    - AWSCore (= 2.13.4)
+  - AWSSQS (2.13.4):
+    - AWSCore (= 2.13.4)
+  - AWSTextract (2.13.4):
+    - AWSCore (= 2.13.4)
+  - AWSTranscribe (2.13.4):
+    - AWSCore (= 2.13.4)
+  - AWSTranscribeStreaming (2.13.4):
+    - AWSCore (= 2.13.4)
+  - AWSTranslate (2.13.4):
+    - AWSCore (= 2.13.4)
+
+DEPENDENCIES:
+  - AWSAPIGateway
+  - AWSAutoScaling
+  - AWSCloudWatch
+  - AWSComprehend
+  - AWSConnect
+  - AWSCore
+  - AWSDynamoDB
+  - AWSEC2
+  - AWSElasticLoadBalancing
+  - AWSIoT
+  - AWSKinesis
+  - AWSKinesisVideo
+  - AWSKinesisVideoArchivedMedia
+  - AWSKMS
+  - AWSLambda
+  - AWSLex
+  - AWSLogs
+  - AWSMachineLearning
+  - AWSPinpoint
+  - AWSPolly
+  - AWSRekognition
+  - AWSS3
+  - AWSSageMakerRuntime
+  - AWSSES
+  - AWSSimpleDB
+  - AWSSNS
+  - AWSSQS
+  - AWSTextract
+  - AWSTranscribe
+  - AWSTranscribeStreaming
+  - AWSTranslate
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AWSAPIGateway
+    - AWSAutoScaling
+    - AWSCloudWatch
+    - AWSComprehend
+    - AWSConnect
+    - AWSCore
+    - AWSDynamoDB
+    - AWSEC2
+    - AWSElasticLoadBalancing
+    - AWSIoT
+    - AWSKinesis
+    - AWSKinesisVideo
+    - AWSKinesisVideoArchivedMedia
+    - AWSKMS
+    - AWSLambda
+    - AWSLex
+    - AWSLogs
+    - AWSMachineLearning
+    - AWSPinpoint
+    - AWSPolly
+    - AWSRekognition
+    - AWSS3
+    - AWSSageMakerRuntime
+    - AWSSES
+    - AWSSimpleDB
+    - AWSSNS
+    - AWSSQS
+    - AWSTextract
+    - AWSTranscribe
+    - AWSTranscribeStreaming
+    - AWSTranslate
+
+SPEC CHECKSUMS:
+  AWSAPIGateway: 01edfa1cd7ec31bd01216ff29c1a0ff9b2fe14b7
+  AWSAutoScaling: 5f81c178e50c84bd213bc925329dd431855236b8
+  AWSCloudWatch: 2ee5cb576ce309675c2c93a13848460c2649e02d
+  AWSComprehend: 443642fa807d6dfd38b1e0f884f52faa75aa7de2
+  AWSConnect: 89ebd2eee34e9cf63d06c3798a6c3ff5ca72ea78
+  AWSCore: 06beea22b6bdbfe9f5ab5015c6901e8475c746a8
+  AWSDynamoDB: 6467f8446b4afd9feb6d5cad63b19a4af64d3af7
+  AWSEC2: 304eb810c808182b9fd8f31018e8e38744345aba
+  AWSElasticLoadBalancing: 997946e8e85125aea9551635316e9fb6c56899f0
+  AWSIoT: d63cd08d0702627a0e9a66cb02c7f273784c0730
+  AWSKinesis: 3b44da717c028f0a63b0e9881b7229dd61116248
+  AWSKinesisVideo: 887dacf07ccb52ebeec55fe88217a0518c11af13
+  AWSKinesisVideoArchivedMedia: f31575c73ce0b16ec4b9dd156d84258eed321f10
+  AWSKMS: 47fd8b7bdbb4c30524cae5fecc4940d02d1fa98a
+  AWSLambda: 7cad8334e22c75ba3cd07543108345226e5c28d3
+  AWSLex: 4370913cece4bb85e335044a61ed3c50d409d85c
+  AWSLogs: ac2ecbbeda4c6264e94f237f3eac6f5c12e1c22f
+  AWSMachineLearning: 973784f31ecf1b15eae346445ed43c4bc44ebbfe
+  AWSPinpoint: 82468e86fc58a5f0b9d9c115d705f034fb142286
+  AWSPolly: c054eb9c899b072cf485aa6d6fc25f407acc253c
+  AWSRekognition: e4ccacfb4bc3f2718c661a14553149c068741380
+  AWSS3: ab3965322c8e5ee069eaf9b3201c55557ad21be1
+  AWSSageMakerRuntime: baef92df56c4a5152ad1f97e0ac8f571b139f282
+  AWSSES: 2c872e2971aa0e24435d2946e30addd81c15f272
+  AWSSimpleDB: 7c06dc16e5a344c9fb34cada49a61488c8f4ce8c
+  AWSSNS: 07725d5ab55c0fac5de373477f848ad8677e4602
+  AWSSQS: bdac34b0aaecba91769d1aac87b8527f34c70d8b
+  AWSTextract: 4a058a2f8031f2e97e78ac2780b16a99f5d42f50
+  AWSTranscribe: b4fbb103d2248342c71f31b733f2637e9645aa9c
+  AWSTranscribeStreaming: 2b09aa0f3200a0d32669423a41da16e94f3a7d3f
+  AWSTranslate: b48693f2f6de158fd2c3a9711190b077809477ae
+
+PODFILE CHECKSUM: 8e2260338d6fcafcb7e9a82698793f01d0e42966
+
+COCOAPODS: 1.9.3

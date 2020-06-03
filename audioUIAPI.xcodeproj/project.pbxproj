@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE63ADDA2485DE9B00FD4BA1 /* dummyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE63ADD92485DE9B00FD4BA1 /* dummyModel.swift */; };
+		BEDD2B972485DC19000CFED0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDD2B962485DC19000CFED0 /* AppDelegate.swift */; };
+		BEDD2B992485DC19000CFED0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDD2B982485DC19000CFED0 /* SceneDelegate.swift */; };
+		BEDD2B9B2485DC19000CFED0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDD2B9A2485DC19000CFED0 /* ViewController.swift */; };
+		BEDD2B9E2485DC19000CFED0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEDD2B9C2485DC19000CFED0 /* Main.storyboard */; };
+		BEDD2BA02485DC1A000CFED0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEDD2B9F2485DC1A000CFED0 /* Assets.xcassets */; };
+		BEDD2BA32485DC1A000CFED0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEDD2BA12485DC1A000CFED0 /* LaunchScreen.storyboard */; };
+		BEDD2BAE2485DC1A000CFED0 /* audioUIAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDD2BAD2485DC1A000CFED0 /* audioUIAPITests.swift */; };
+		BEDD2BB92485DC1A000CFED0 /* audioUIAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDD2BB82485DC1A000CFED0 /* audioUIAPIUITests.swift */; };
+		BEDD2BC72485DC56000CFED0 /* RM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDD2BC62485DC56000CFED0 /* RM.swift */; };
+		F489640D2361F369FAA1C3C2 /* Pods_audioUIAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C878398631FCD5FA0E0EDD2F /* Pods_audioUIAPI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEDD2BAA2485DC1A000CFED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEDD2B8B2485DC19000CFED0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEDD2B922485DC19000CFED0;
+			remoteInfo = audioUIAPI;
+		};
+		BEDD2BB52485DC1A000CFED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEDD2B8B2485DC19000CFED0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEDD2B922485DC19000CFED0;
+			remoteInfo = audioUIAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0252CDB7EDE25FD3815D0156 /* Pods-audioUIAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-audioUIAPI.release.xcconfig"; path = "Target Support Files/Pods-audioUIAPI/Pods-audioUIAPI.release.xcconfig"; sourceTree = "<group>"; };
+		3D2390C94202E292EC88CAED /* Pods-audioUIAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-audioUIAPI.debug.xcconfig"; path = "Target Support Files/Pods-audioUIAPI/Pods-audioUIAPI.debug.xcconfig"; sourceTree = "<group>"; };
+		BE63ADD92485DE9B00FD4BA1 /* dummyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dummyModel.swift; sourceTree = "<group>"; };
+		BEDD2B932485DC19000CFED0 /* audioUIAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = audioUIAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEDD2B962485DC19000CFED0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEDD2B982485DC19000CFED0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BEDD2B9A2485DC19000CFED0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEDD2B9D2485DC19000CFED0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEDD2B9F2485DC1A000CFED0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEDD2BA22485DC1A000CFED0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEDD2BA42485DC1A000CFED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEDD2BA92485DC1A000CFED0 /* audioUIAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = audioUIAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEDD2BAD2485DC1A000CFED0 /* audioUIAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = audioUIAPITests.swift; sourceTree = "<group>"; };
+		BEDD2BAF2485DC1A000CFED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEDD2BB42485DC1A000CFED0 /* audioUIAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = audioUIAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEDD2BB82485DC1A000CFED0 /* audioUIAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = audioUIAPIUITests.swift; sourceTree = "<group>"; };
+		BEDD2BBA2485DC1A000CFED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEDD2BC62485DC56000CFED0 /* RM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RM.swift; sourceTree = "<group>"; };
+		C878398631FCD5FA0E0EDD2F /* Pods_audioUIAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_audioUIAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEDD2B902485DC19000CFED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F489640D2361F369FAA1C3C2 /* Pods_audioUIAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEDD2BA62485DC1A000CFED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEDD2BB12485DC1A000CFED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F6E6C28AB87999629EB6745 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D2390C94202E292EC88CAED /* Pods-audioUIAPI.debug.xcconfig */,
+				0252CDB7EDE25FD3815D0156 /* Pods-audioUIAPI.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		52119FC388D9E14247F840D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C878398631FCD5FA0E0EDD2F /* Pods_audioUIAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEDD2B8A2485DC19000CFED0 = {
+			isa = PBXGroup;
+			children = (
+				BEDD2B952485DC19000CFED0 /* audioUIAPI */,
+				BEDD2BAC2485DC1A000CFED0 /* audioUIAPITests */,
+				BEDD2BB72485DC1A000CFED0 /* audioUIAPIUITests */,
+				BEDD2B942485DC19000CFED0 /* Products */,
+				3F6E6C28AB87999629EB6745 /* Pods */,
+				52119FC388D9E14247F840D0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BEDD2B942485DC19000CFED0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEDD2B932485DC19000CFED0 /* audioUIAPI.app */,
+				BEDD2BA92485DC1A000CFED0 /* audioUIAPITests.xctest */,
+				BEDD2BB42485DC1A000CFED0 /* audioUIAPIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEDD2B952485DC19000CFED0 /* audioUIAPI */ = {
+			isa = PBXGroup;
+			children = (
+				BEDD2B962485DC19000CFED0 /* AppDelegate.swift */,
+				BEDD2B982485DC19000CFED0 /* SceneDelegate.swift */,
+				BEDD2B9A2485DC19000CFED0 /* ViewController.swift */,
+				BEDD2BC62485DC56000CFED0 /* RM.swift */,
+				BEDD2B9C2485DC19000CFED0 /* Main.storyboard */,
+				BEDD2B9F2485DC1A000CFED0 /* Assets.xcassets */,
+				BEDD2BA12485DC1A000CFED0 /* LaunchScreen.storyboard */,
+				BEDD2BA42485DC1A000CFED0 /* Info.plist */,
+				BE63ADD92485DE9B00FD4BA1 /* dummyModel.swift */,
+			);
+			path = audioUIAPI;
+			sourceTree = "<group>";
+		};
+		BEDD2BAC2485DC1A000CFED0 /* audioUIAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEDD2BAD2485DC1A000CFED0 /* audioUIAPITests.swift */,
+				BEDD2BAF2485DC1A000CFED0 /* Info.plist */,
+			);
+			path = audioUIAPITests;
+			sourceTree = "<group>";
+		};
+		BEDD2BB72485DC1A000CFED0 /* audioUIAPIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEDD2BB82485DC1A000CFED0 /* audioUIAPIUITests.swift */,
+				BEDD2BBA2485DC1A000CFED0 /* Info.plist */,
+			);
+			path = audioUIAPIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEDD2B922485DC19000CFED0 /* audioUIAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEDD2BBD2485DC1A000CFED0 /* Build configuration list for PBXNativeTarget "audioUIAPI" */;
+			buildPhases = (
+				7ACF6B12911607457E09C2F4 /* [CP] Check Pods Manifest.lock */,
+				BEDD2B8F2485DC19000CFED0 /* Sources */,
+				BEDD2B902485DC19000CFED0 /* Frameworks */,
+				BEDD2B912485DC19000CFED0 /* Resources */,
+				340BB71B0F0C843ABBC9EAEC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = audioUIAPI;
+			productName = audioUIAPI;
+			productReference = BEDD2B932485DC19000CFED0 /* audioUIAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEDD2BA82485DC1A000CFED0 /* audioUIAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEDD2BC02485DC1A000CFED0 /* Build configuration list for PBXNativeTarget "audioUIAPITests" */;
+			buildPhases = (
+				BEDD2BA52485DC1A000CFED0 /* Sources */,
+				BEDD2BA62485DC1A000CFED0 /* Frameworks */,
+				BEDD2BA72485DC1A000CFED0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEDD2BAB2485DC1A000CFED0 /* PBXTargetDependency */,
+			);
+			name = audioUIAPITests;
+			productName = audioUIAPITests;
+			productReference = BEDD2BA92485DC1A000CFED0 /* audioUIAPITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEDD2BB32485DC1A000CFED0 /* audioUIAPIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEDD2BC32485DC1A000CFED0 /* Build configuration list for PBXNativeTarget "audioUIAPIUITests" */;
+			buildPhases = (
+				BEDD2BB02485DC1A000CFED0 /* Sources */,
+				BEDD2BB12485DC1A000CFED0 /* Frameworks */,
+				BEDD2BB22485DC1A000CFED0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEDD2BB62485DC1A000CFED0 /* PBXTargetDependency */,
+			);
+			name = audioUIAPIUITests;
+			productName = audioUIAPIUITests;
+			productReference = BEDD2BB42485DC1A000CFED0 /* audioUIAPIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEDD2B8B2485DC19000CFED0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Ram Krishna";
+				TargetAttributes = {
+					BEDD2B922485DC19000CFED0 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					BEDD2BA82485DC1A000CFED0 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = BEDD2B922485DC19000CFED0;
+					};
+					BEDD2BB32485DC1A000CFED0 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = BEDD2B922485DC19000CFED0;
+					};
+				};
+			};
+			buildConfigurationList = BEDD2B8E2485DC19000CFED0 /* Build configuration list for PBXProject "audioUIAPI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEDD2B8A2485DC19000CFED0;
+			productRefGroup = BEDD2B942485DC19000CFED0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEDD2B922485DC19000CFED0 /* audioUIAPI */,
+				BEDD2BA82485DC1A000CFED0 /* audioUIAPITests */,
+				BEDD2BB32485DC1A000CFED0 /* audioUIAPIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEDD2B912485DC19000CFED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEDD2BA32485DC1A000CFED0 /* LaunchScreen.storyboard in Resources */,
+				BEDD2BA02485DC1A000CFED0 /* Assets.xcassets in Resources */,
+				BEDD2B9E2485DC19000CFED0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEDD2BA72485DC1A000CFED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEDD2BB22485DC1A000CFED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		340BB71B0F0C843ABBC9EAEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-audioUIAPI/Pods-audioUIAPI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-audioUIAPI/Pods-audioUIAPI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-audioUIAPI/Pods-audioUIAPI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7ACF6B12911607457E09C2F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-audioUIAPI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEDD2B8F2485DC19000CFED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEDD2B9B2485DC19000CFED0 /* ViewController.swift in Sources */,
+				BEDD2B972485DC19000CFED0 /* AppDelegate.swift in Sources */,
+				BE63ADDA2485DE9B00FD4BA1 /* dummyModel.swift in Sources */,
+				BEDD2BC72485DC56000CFED0 /* RM.swift in Sources */,
+				BEDD2B992485DC19000CFED0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEDD2BA52485DC1A000CFED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEDD2BAE2485DC1A000CFED0 /* audioUIAPITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEDD2BB02485DC1A000CFED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEDD2BB92485DC1A000CFED0 /* audioUIAPIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEDD2BAB2485DC1A000CFED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEDD2B922485DC19000CFED0 /* audioUIAPI */;
+			targetProxy = BEDD2BAA2485DC1A000CFED0 /* PBXContainerItemProxy */;
+		};
+		BEDD2BB62485DC1A000CFED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEDD2B922485DC19000CFED0 /* audioUIAPI */;
+			targetProxy = BEDD2BB52485DC1A000CFED0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEDD2B9C2485DC19000CFED0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEDD2B9D2485DC19000CFED0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEDD2BA12485DC1A000CFED0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEDD2BA22485DC1A000CFED0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEDD2BBB2485DC1A000CFED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEDD2BBC2485DC1A000CFED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEDD2BBE2485DC1A000CFED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D2390C94202E292EC88CAED /* Pods-audioUIAPI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = audioUIAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ulytics-Inc.audioUIAPI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEDD2BBF2485DC1A000CFED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0252CDB7EDE25FD3815D0156 /* Pods-audioUIAPI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = audioUIAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ulytics-Inc.audioUIAPI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BEDD2BC12485DC1A000CFED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = audioUIAPITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ulytics-Inc.audioUIAPITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/audioUIAPI.app/audioUIAPI";
+			};
+			name = Debug;
+		};
+		BEDD2BC22485DC1A000CFED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = audioUIAPITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ulytics-Inc.audioUIAPITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/audioUIAPI.app/audioUIAPI";
+			};
+			name = Release;
+		};
+		BEDD2BC42485DC1A000CFED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = audioUIAPIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ulytics-Inc.audioUIAPIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = audioUIAPI;
+			};
+			name = Debug;
+		};
+		BEDD2BC52485DC1A000CFED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = audioUIAPIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ulytics-Inc.audioUIAPIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = audioUIAPI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEDD2B8E2485DC19000CFED0 /* Build configuration list for PBXProject "audioUIAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEDD2BBB2485DC1A000CFED0 /* Debug */,
+				BEDD2BBC2485DC1A000CFED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEDD2BBD2485DC1A000CFED0 /* Build configuration list for PBXNativeTarget "audioUIAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEDD2BBE2485DC1A000CFED0 /* Debug */,
+				BEDD2BBF2485DC1A000CFED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEDD2BC02485DC1A000CFED0 /* Build configuration list for PBXNativeTarget "audioUIAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEDD2BC12485DC1A000CFED0 /* Debug */,
+				BEDD2BC22485DC1A000CFED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEDD2BC32485DC1A000CFED0 /* Build configuration list for PBXNativeTarget "audioUIAPIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEDD2BC42485DC1A000CFED0 /* Debug */,
+				BEDD2BC52485DC1A000CFED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEDD2B8B2485DC19000CFED0 /* Project object */;
+}
